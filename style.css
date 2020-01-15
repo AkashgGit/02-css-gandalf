@@ -1,0 +1,61 @@
+.container{
+    margin: auto;
+    width: 500px;
+    height: 572px;
+    position: relative;
+    text-align: center;
+  }
+  img{
+      opacity: 0.6;
+  }
+  .top{
+      position: absolute;
+      width: 250px;
+      color: black;
+      height: 80px;
+      background: whitesmoke;
+      border-radius: 10px;
+      top: 40px;
+      left: 120px;
+  }
+.orange{
+    color: orange;
+}
+.top-text{
+    padding: 10px 0;
+}
+.center-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-size: x-large;
+}
+#bottom-text{
+    position: absolute;
+    bottom: 10px;
+    left: 230px;
+    color: white;
+    font-size: larger;
+    opacity: 0;
+
+}
+img:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+.container:hover .top{
+    display: none;
+}
+.container:hover .center-text{
+    display: none;
+}
+.container:hover #bottom-text{
+    opacity: 1;
+}
+
+
+
+
